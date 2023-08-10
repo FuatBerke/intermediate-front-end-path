@@ -12,4 +12,4 @@
 
 ## Output:
 
-![](code.png)
+![](react1.png)
