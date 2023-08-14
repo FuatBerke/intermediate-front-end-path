@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: gainsboro;
+}
+
+input {
+  padding: 10px 50px 10px 10px;
+  border: 1px solid rgba(44, 90, 255, 0.559);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1.5px solid rgb(44, 90, 255);
+
+}
+
+.checked {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: gray;
+  transition: 500ms;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 5px 5px;
+  background-color: #2566ff;
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.task-number {
+  background-color: transparent;
+  color: #2566ff;
+  padding-left: 0;
+}
+
+.task-number:hover {
+  filter: drop-shadow(0px 0px 0px transparent);
+}
+
+button:hover {
+  filter: drop-shadow(0px 5px 5px #2566ff95);
+  transition: 250ms;
+}
+
+.clear-all{
+  background-color: rgb(255, 75, 75);
+  transition: 250ms;
+}
+
+.clear-all:hover {
+  background-color: rgb(255, 75, 75);
+  filter: drop-shadow(0px 5px 5px rgba(255, 75, 75, 0.517));
+  transition: 250ms;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+ul > li {
+  min-width: 40vh;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  font-size: 18px;
+  transition: 200ms;
+}
+
+ul > li:hover {
+  background-color: rgba(206, 206, 206, 0.331);
+  border-radius: 5px;
+}
+
+.li-checked {
+  background-color: rgba(206, 206, 206, 0.331);
+  border-radius: 5px;
+}
+
+.close-btn{
+  background-color: transparent;
+  transition: 250ms;
+  color: rgb(99, 99, 99);
+}
+
+.close-btn:hover {
+  color:white;
+background-color: rgb(255, 48, 48);
+filter: drop-shadow(0px 5px 5px rgba(255, 48, 48, 0.433));
+transition: 250ms;
+}
+
+.list-item-div{
+  display : flex ;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  transition: 550ms;
+  accent-color: #5085ff;
+  border-radius: 30%;
+}
+
