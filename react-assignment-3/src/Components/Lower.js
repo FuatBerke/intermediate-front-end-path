@@ -7,18 +7,7 @@ function Lower() {
     <>
       {lowerData.data.main ? (
         <div
-          className="
-      h-96
-      p-7
-      rounded-t-3xl
-      backdrop-blur-md
-      bg-opacity-25
-      bg-blur-50
-      shadow-2xl
-      absolute
-      container
-      bottom-0
-      bg-black"
+          className="h-96 p-7 rounded-t-3xl backdrop-blur-md bg-opacity-25 bg-blur-50 shadow-2xl absolute container bottom-0 bg-black"
         >
           <div className="flex-none me-auto">
             <p className="text-2xl font-semibold">Weather Details</p>
