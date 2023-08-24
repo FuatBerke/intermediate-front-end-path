@@ -6,7 +6,7 @@ const ApiContext = createContext();
 export const ApiProvider = ({ children }) => {
   const [data, setData] = useState({});
   const [city, setCity] = useState("");
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=7d78bed4eb1cd7d9160ff512f739999f`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid={APIKEY}`;
 
   useEffect(() => {
     if (city != "") {
