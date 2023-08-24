@@ -1,8 +1,27 @@
-# Getting Started with Create React App
+# Bu proje Kodluyoruz [Intermediate Front-End Web Development Patikası](https://academy.patika.dev/paths/orta-seviye-frontend-web-development-patikasi) **"React"** Dersinin 3. Ödevidir
+
+Bu ödevde React dersinde şu ana kadar öğrendiklerimizle bir hava durumu uygulaması geliştirmemiz isteniyor.
+
+*Ödev örneğine [buradan](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/react-patika/odev3/figures/preview%20kopyas%C4%B1.jpeg) ulaşabilirsiniz*
+
+Ben bu ödevi biraz daha farklı şekilde yorumlayıp bir app gibi geliştirdim. 
+
+- Uygulama, Context API kullanılarak geliştirilmelidir.
+- Hava raporunda görüntülenen veriler tamamen gerçeği yansıtmalıdır. Hava durum bilgilerine erişmek için [OpenWeather API](https://openweathermap.org/) kullanılabilir. Veya dilediğiniz farklı bir API'ı da kullanabilirsiniz.
+
+![](React3.png)
+
+
+
+<br />
+<hr />
+<br />
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
