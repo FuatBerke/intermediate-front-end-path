@@ -4,9 +4,9 @@ import Upper from "./Upper";
 import Lower from "./Lower";
 
 function Container() {
-  const newData = useContext(ApiContext);
+  const containerData = useContext(ApiContext);
   useEffect(() => {
-    console.log(newData);
+    console.log(containerData);
   });
 
   // Defined with let first
@@ -14,8 +14,8 @@ function Container() {
   let bgStyle = {};
 
   // And defined again after getting API Data
-  if (newData.data.weather) {
-    bgStyle = newData.data.weather[0].main;
+  if (containerData.data.weather) {
+    bgStyle = containerData.data.weather[0].main;
 
     backgroundStyle = {
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(${process.env.PUBLIC_URL}/img/${bgStyle}.jpg)`,
