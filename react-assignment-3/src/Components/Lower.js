@@ -61,16 +61,7 @@ function Lower() {
         </div>
       ) : (
         <div
-          className="
-  h-96
-  p-5
-  rounded-t-3xl
-  backdrop-blur-md
-  bg-opacity-25
-  bg-blur-75
-  relative
-  translate-y-52
-bg-black"
+          className=" h-96 p-5 rounded-t-3xl backdrop-blur-md bg-opacity-25 bg-blur-75 relative translate-y-52 bg-black"
         >
           <p>Weather Details</p>
         </div>
