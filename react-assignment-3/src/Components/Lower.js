@@ -9,9 +9,12 @@ function Lower() {
         <div
           className="h-96 p-7 rounded-t-3xl backdrop-blur-md bg-opacity-25 bg-blur-50 shadow-2xl absolute container bottom-0 bg-black"
         >
+            {/* HEADING */}
           <div className="flex-none me-auto">
             <p className="text-2xl font-semibold">Weather Details</p>
           </div>
+          
+          {/* MINIMUM TEMP */}
           <div className="mt-5 grid grid-cols-2 gap-x-5 gap-y-5">
             <div className="bg-white rounded-lg grid grid-cols-5 bg-opacity-10 pt-[32px]  h-32">
               <p className="text-gray-400 h-5 col-start-5 rotate-90 whitespace-nowrap ">
@@ -24,6 +27,8 @@ function Lower() {
                 </span>
               </p>
             </div>
+
+          {/* MAXIMUM TEMP */}
             <div className="bg-white rounded-lg grid grid-cols-5 bg-opacity-10 pt-[32px]  h-32">
               <p className="text-gray-400 h-5 col-start-5 rotate-90 whitespace-nowrap ">
                 Max Temp
@@ -35,6 +40,8 @@ function Lower() {
                 </span>
               </p>
             </div>
+          
+          {/* WIND SPEED */}
             <div className="bg-white rounded-lg grid grid-cols-5 bg-opacity-10 pt-[25px]  h-32">
               <p className="text-gray-400 h-5 col-start-5 rotate-90 whitespace-nowrap ">
                 Wind Speed
@@ -46,6 +53,8 @@ function Lower() {
                 </span>
               </p>
             </div>
+          
+          {/* HUMIDITY  */}
             <div className="bg-white rounded-lg grid grid-cols-5 bg-opacity-10 pt-[40px]  h-32">
               <p className="text-gray-400 h-5 col-start-5 rotate-90 whitespace-nowrap ">
                 Humidity
