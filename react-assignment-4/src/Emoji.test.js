@@ -11,3 +11,10 @@ test("Has the Header been rendered?", () => {
   const header = screen.getByText("Emoji Search");
   expect(header).toBeInTheDocument();
 });
+
+//  TEST 2
+test("Has the Emojis been rendered?", () => {
+  render(<App />);
+  const emoji1 = screen.getByText("100");
+  expect(emoji1).toBeInTheDocument();
+});
