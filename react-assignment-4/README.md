@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Bu proje Kodluyoruz [Intermediate Front-End Web Development Patikası](https://academy.patika.dev/paths/orta-seviye-frontend-web-development-patikasi) **"React"** Dersinin 4. Ödevidir
+
+Gereksinimler:
+- Başlık kısmının başarılı bir şekilde render edildiğini kontrol edecek olan test kodunu yazın.
+
+- Uygulama ilk açıldığında emoji listesinin başarılı bir şekilde render edildiğini kontrol edecek olan test kodunu yazın.
+
+- Bir filtreleme işlemi yapıldığında, emoji listesinin bu filtreye uygun şekilde yeniden render edildiğini kontrol edecek olan test kodunu yazın.
+
+- Liste üzerinden herhangi emojiye tıklandığında, ilgili emojinin kopyalandığını kontrol edecek olan test kodunu yazın.
+
+## Test Output :
+
+![](test.png)
+
+<br />
+<hr />
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
