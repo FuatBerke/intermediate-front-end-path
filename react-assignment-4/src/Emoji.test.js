@@ -18,3 +18,13 @@ test("Has the Emojis been rendered?", () => {
   const emoji1 = screen.getByText("100");
   expect(emoji1).toBeInTheDocument();
 });
+
+// TEST 3
+test("Filter Emoji", () => {
+  render(<App />);
+  const inputElement = screen.getByPlaceholderText("Search Emoji");
+  const emoji1 = "100";
+
+  act(() => userEvent.type(inputElement, emoji1));
+  expect(screen.getByText(emoji1)).toBeInTheDocument();
+});
