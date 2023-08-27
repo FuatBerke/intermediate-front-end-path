@@ -30,14 +30,13 @@ test("Filter Emoji", () => {
 });
 
 // TEST 4
-describe("emoji copy", () => {
-  test("Emoji Clipboard", () => {
-    render(<App />);
-    const emoji1 = screen.getByText("100");
 
-    act(() => userEvent.click(emoji1.parentElement));
-    expect(emoji1.parentElement.getAttribute("data-clipboard-text")).toMatch(
-      "💯"
-    );
-  });
+test("Emoji Clipboard", () => {
+  render(<App />);
+  const emoji1 = screen.getByText("100");
+
+  act(() => userEvent.click(emoji1.parentElement));
+  expect(emoji1.parentElement.getAttribute("data-clipboard-text")).toMatch(
+    "💯"
+  );
 });
